@@ -10,7 +10,7 @@ class TestString(unittest.TestCase):
         self.assertEqual(result2, "0 1 2 3 4 5")
     def test3(self):
         result3 = string_numbers_till_n(10)
-        self.assertEqual(result3, "0 1 2 3 4 5 6 7 8 9 10")
+        self.assertEqual(result3, "0 1 2 3 4 5 6 7 8")
     def test4(self):
         result3 = string_numbers_till_n(0)
         self.assertEqual(result3, "0")
